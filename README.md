@@ -1,3 +1,7 @@
-# Perceptrum Research
+# Perceptrum Research — mr-perceptrum.in
 
-Primary fieldwork site. Open index.html or deploy as a static Vercel project.
+Live brand domain: **https://mr-perceptrum.in**
+Operations desk: **projects@mr-perceptrum.in**
+Panel (Truefold): **https://panel.truefold.com**
+
+Import this repo on Vercel and attach the `.in` domain.

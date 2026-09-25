@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Perceptrum Research — Global Primary Fieldwork</title>
+<meta name="description" content="Precision online fieldwork, CAWI, CATI, P2W and high-governance sample.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<canvas id="hero-canvas"></canvas>
+<aside class="announcement"><div class="announcement-inner"><div><span class="pulse"></span> <strong>Global Operations Live</strong> · Feasibility SLA under 2 hours</div>
+<button class="btn" style="background:transparent;color:#22d3ee" onclick="openRespondentModal('register')">Panel Portal ↗</button></div></aside>
+<nav><div class="nav-inner">
+<a class="brand" href="index.html"><div class="logo-mark"></div><strong class="display">PERCEPTRUM RESEARCH</strong></a>
+<div class="nav-links">
+<a class="nav-link" href="solutions.html">Solutions</a>
+<a class="nav-link" href="methodology.html">Methodologies</a>
+<a class="nav-link" href="industries.html">Industries</a>
+<a class="nav-link" href="about.html">About</a>
+<a class="nav-link" href="work.html">Case Studies</a>
+</div>
+<a class="btn btn-primary" href="rfp.html">Submit RFP →</a>
+</div></nav>
+<section class="hero wrap"><div class="hero-grid"><div>
+<div class="pill">PRIMARY FIELDWORK INFRASTRUCTURE</div>
+<h1 class="display">Precision sample.<br><span class="gradient">Zero synthetic noise.</span></h1>
+<p class="lede">Verified decision-makers and representative consumers via CAWI, CATI, P2W and proprietary panels.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px">
+<a class="btn btn-primary btn-lg" href="rfp.html">Submit Study Specifications →</a>
+<a class="btn btn-outline btn-lg" href="solutions.html">Explore Modes</a>
+</div>
+<div class="stats"><div><b class="display">&lt; 2h</b><small>Feasibility SLA</small></div><div><b class="display">100%</b><small>Free replacement</small></div><div><b class="display">24×7</b><small>Global pacing</small></div></div>
+</div>
+<div class="hide-sm"><div class="glass telemetry"><div class="telemetry-screen"><canvas id="pacing-canvas"></canvas></div></div></div>
+</div></section>
+<section class="wrap"><div class="grid-4">
+<div class="glass card metric"><span class="section-label">STUDIES</span><b class="display">3,167+</b></div>
+<div class="glass card metric"><span class="section-label">SURVEYS</span><b class="display">60K+</b></div>
+<div class="glass card metric"><span class="section-label">MARKETS</span><b class="display">60+</b></div>
+<div class="glass card metric"><span class="section-label">HYGIENE</span><b class="display">99.2%</b></div>
+</div></section>
+<section class="wrap"><div class="panel-banner">
+<h2 class="display">Opinion Hub™ — double opt-in respondents</h2>
+<p>Corporate domain verification. Free email domains excluded from executive B2B work.</p>
+<button class="btn btn-primary" style="background:#fff;color:#0f172a" onclick="openRespondentModal('register')">Register as respondent ↗</button>
+</div></section>
+<footer><div class="wrap"><p>projects@perceptrumresearch.com · © 2026 Perceptrum Research</p></div></footer>
+<div id="respondentModal" class="modal"><div class="modal-card">
+<button class="close-x" onclick="closeRespondentModal()">✕</button>
+<h3 class="display">Executive Panel Portal</h3>
+<form id="respondentRegisterForm" onsubmit="handleRespondentRegister(event)">
+<input required id="resp_email" type="email" placeholder="Corporate work email *">
+<span id="emailErrorNotice" hidden style="color:#e11d48"></span>
+<input required id="resp_name" placeholder="Full name *">
+<button class="btn btn-primary" type="submit">Submit for verification</button>
+</form>
+<form id="respondentLoginForm" hidden onsubmit="handleRespondentLogin(event)">
+<input required id="login_email" type="email" placeholder="Email">
+<button class="btn btn-primary" type="submit">Sign in</button>
+</form>
+<div id="respSuccessNotice" hidden><p>Application received. We will audit your work domain within 24 hours.</p></div>
+</div></div>
+<script src="js/main.js"></script>
+</body></html>
